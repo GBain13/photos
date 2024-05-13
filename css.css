@@ -1,1 +1,36 @@
+#window{
+    height: auto;
+    width: 100%;
+    display: fixed;
+    display: block;
+}
 
+.home_page{
+    background-image: url(./DSC_0279.JPG);
+}
+
+body.page_1{
+    background-color: whitesmoke;
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    display: block;
+}
+
+li{
+    display: inline-block;
+    color: whitesmoke;
+}
+ img {
+    height: auto;
+    width: 100%;
+    padding: 0px
+ }
+
+ header{
+    color: whitesmoke;
+ }
