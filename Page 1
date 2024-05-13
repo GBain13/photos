@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photos ^-^</title>
+        <link rel="stylesheet" href="./Resources/CSS/index.css">
+    </head>
+    <header> 
+        <ul>
+          <li><a href="./index.html"> Home </a></li>
+          <li><a href="./Page-1.html"> Images</a> </li>
+        </ul> 
+       </header>
+    <body class="page_1">
+  <img src="/Resources/Images/DSC_0104.JPG" id="bluesky">
+  <img src="/Resources/Images/DSC_0164.JPG" id="bird">
+  <img src="/Resources/Images/IMG_20220102_101818_3.jpg" id="water1">
+    </body>
