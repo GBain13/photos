@@ -1,26 +1,26 @@
-
-#window{
-    height: auto;
-    width: 100%;
-    display: fixed;
-    display: block;
+body{
+    display: grid;
 }
 
 .home_page{
     background-image: url(./DSC_0279.JPG);
+    background-size: cover;
 }
 
 body.page_1{
-    background-color: lightpink;
+    background-color: whitesmoke;
+    padding: 0%;
 }
-
 
 h1 {
     text-align: center;
     font-weight: bold;
     color: lightpink;
     background-color: black;
-    display: block;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 0%;
+    width: 100%;
 }
 
 li{
@@ -28,13 +28,27 @@ li{
     color: whitesmoke;
     border: 15px;
     position: relative;
+    background-color: antiquewhite;
 }
  img {
-    height: auto;
     width: 100%;
-    padding: 0px
- }
+    padding: 5px;
+    margin-top: 0;
+     }
 
  header{
     color: whitesmoke;
+    display: inline-block;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+ }
+
+ .content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
  }
